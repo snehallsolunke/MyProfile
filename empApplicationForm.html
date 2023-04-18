@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Employee Application Form
+        </title>
+    </head>
+    <body>
+        <h2> Employee Application Form </h3>
+        <form> 
+            <table>
+                <tbody>
+                    <tr> 
+                        <td> <label for="FullName"> Full Name :</label> </td>
+                        <td> <input type="text" id="fullName" autofocus required maxlength="40"> </td>
+                    </tr>
+                    <tr>
+                        <td> <label> Email Address :</label></td>
+                        <td> <input type="email" required placeholder="Ex: xyz@gmail.com"></td>
+                    </tr>
+                    <tr>
+                        <td> <label> Password :</label></td>
+                        <td> <input type="password" required minlength="8"></td>
+                    </tr>
+                    <tr>
+                        <td> <label> Contact :</label></td>
+                        <td> <input type="number" required  ></td>
+                    </tr>
+                    <tr>
+                        <td> <label> Profile Photo </label> </td>
+                        <td> <input type="file" ></td>
+                    </tr>
+                    <tr> 
+                        <td> <label> Date of Birth : </label></td>
+                        <td> <input type="date" required >  </td>                       
+                    </tr>
+                    <tr>
+                        <td> <Label> Gender : </Label></td>
+                        <td> <input type="radio" name="Gender"> <label>Male</label>
+                            <input type="radio" name="Gender"> <label>Female</label> 
+                            <input type="radio" name="Gender"> <label>Trans</label>                                                                 
+                        </td>
+                    </tr>
+                    <tr>
+                        <td> <label> Marital Status :</label></td>
+                        <td> 
+                            <input type="radio" name="MaritalStatus"> <label>Yes</label>
+                            <input type="radio" name="MaritalStatus">  <label> No</label>             
+                        </td>
+                    </tr>      
+                    <tr>
+                        <td><label>Known Tools <br>and Technology :</label></td>
+                        <td> 
+                            <input type="checkbox"> <label>Angular</label>
+                            <input type="checkbox"> <label>React</label>
+                            <input type="checkbox"> <label>Python</label>
+                            <input type="checkbox"> <label>Java</label><br>
+                            <input type="checkbox"> <label>Jenkin</label>
+                            <input type="checkbox"> <label>Git</label>
+                            <input type="checkbox"> <label>Database</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td> <label> Designation : </label></td>
+                        <td> 
+                            <select> 
+                                <option>UI Dev</option>
+                                <option>BackEnd Dev</option>
+                                <option>Full stack Dev</option>
+                                <option>DevOps Eng</option>
+                                <option>Tester</option>  
+                            </select>
+                         </td>
+                    </tr>
+                    <tr>
+                        <td><label>Country :</label></td>
+                        <td> <input type="text" value="India" readonly > </td>
+                    </tr>
+                    <tr>
+                        <td><label> Present Address : </label></td>
+                        <td> <textarea name="Address" id="Add" cols="28" rows="6"></textarea></td>
+                    <tr>
+                        <td>&nbsp;</td>
+                    </tr>
+                    </tr>
+                    <tr>
+                        <td>&nbsp; &nbsp; &nbsp;<button type="submit">Submit</button></td>
+                        <td> <button type="reset" >Clear</button></td>
+                    </tr>
+                    
+                    
+
+    
+                    
+                </tbody>
+            </table>
+
+            
+        </form>
+
+
+    </body>
+</html>
